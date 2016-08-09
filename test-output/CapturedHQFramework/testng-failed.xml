@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CapturedHQFramework]">
+  <test name="CreateBooklessPage(failed)">
+    <classes>
+      <class name="test.user.AddPageInBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.AddPageInBook -->
+      <class name="test.user.CreateBooklessPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCreateBooklessPagePositiveScenarios"/>
+        </methods>
+      </class> <!-- test.user.CreateBooklessPage -->
+      <class name="test.user.AddContents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.AddContents -->
+      <class name="test.user.CreateBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.CreateBook -->
+    </classes>
+  </test> <!-- CreateBooklessPage(failed) -->
+  <test name="AddPageInBook(failed)">
+    <classes>
+      <class name="test.user.AddPageInBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCreateBookPagePositiveScenarios"/>
+        </methods>
+      </class> <!-- test.user.AddPageInBook -->
+      <class name="test.user.CreateBooklessPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.CreateBooklessPage -->
+      <class name="test.user.AddContents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.AddContents -->
+      <class name="test.user.CreateBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.CreateBook -->
+    </classes>
+  </test> <!-- AddPageInBook(failed) -->
+  <test name="AddContents(failed)">
+    <classes>
+      <class name="test.user.AddPageInBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.AddPageInBook -->
+      <class name="test.user.CreateBooklessPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.CreateBooklessPage -->
+      <class name="test.user.AddContents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAddContentsInBooklessPage"/>
+          <include name="setUp"/>
+          <include name="testAddContentsInBookPage"/>
+        </methods>
+      </class> <!-- test.user.AddContents -->
+      <class name="test.user.CreateBook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.user.CreateBook -->
+    </classes>
+  </test> <!-- AddContents(failed) -->
+</suite> <!-- Failed suite [CapturedHQFramework] -->

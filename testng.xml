@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CapturedHQFramework">
+  <test name="CreateBook">
+    <classes>
+      <class name="test.user.CreateBook"> 
+        <methods>
+<!--           <include name="testCreateBookEmpty"/> -->
+          <include name="testCreateBookPositiveScenarios"/>
+        </methods>
+      </class> 
+     </classes>
+   </test>  <!-- test.user.CreateBook -->
+      
+	<test name="CreateBooklessPage">
+     <classes>
+      <class name="test.user.CreateBooklessPage">
+        <methods>
+          <include name="testCreateBooklessPagePositiveScenarios"/>
+        </methods>
+       </class> 
+     </classes>
+   </test><!-- test.user.CreateBooklessPage -->
+     
+	<test name="AddPageInBook">
+     <classes>
+      <class name="test.user.AddPageInBook">
+        <methods>
+          <include name="testCreateBookPagePositiveScenarios"/>
+        </methods>
+       </class> 
+     </classes>
+   </test> <!-- test.user.AddPageInBook -->
+
+	<test name="AddContents">
+     <classes>
+       <class name="test.user.AddContents">
+        <methods>
+          <include name="testAddContentsInBookPage"/>
+          <include name="testAddContentsInBooklessPage"/>
+        </methods>
+	 </class> 
+     </classes>
+   </test> <!-- test.user.AddContents -->
+
+</suite> 
+            
